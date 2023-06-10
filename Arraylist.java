@@ -54,3 +54,24 @@ public class Main
 		System.out.println(l1);   //[]
 	}
 }
+
+// Display ArrayList using for
+
+import java.util.ArrayList;
+public class Main
+{
+	public static void main(String[] args) {
+	    ArrayList<Integer> arr=new ArrayList<Integer>();
+	    arr.add(45);
+	    arr.add(67);
+	    arr.add(100);
+	    for(Integer n : arr)
+	    {
+	        System.out.format("%d ",n);
+	    }
+	    System.out.println(arr.indexOf(100));
+	}
+}
+/* output
+45 67 100 2
+*/
