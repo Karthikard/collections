@@ -15,3 +15,7 @@ public class Main
 	   
 	}
 }
+
+/* output :
+[RD , Karthika , A , a]
+*/
